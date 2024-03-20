@@ -1,4 +1,6 @@
-import {PokeDetailsScreen, PokeListScreen, WelcomeScreen} from './components';
+import PokeDetailsScreen from './components/PokeDetailsScreen';
+import WelcomeScreen from './components/WelcomeScreen';
+import PokeListScreen from './components/PokeListScreen';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
 
